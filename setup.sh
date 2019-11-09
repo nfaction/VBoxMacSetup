@@ -12,10 +12,10 @@ VERSION="v1.2"
 
 POSITIONAL=()
 
-if [ "$#" -le 4 ] && [ "$1" != "-h" ]; then
-    echo -e '\nSomething is missing... Type "./setup -h" without the quotes to find out more...\n'
-    exit 0
-fi
+# if [ "$#" -le 4 ] && [ "$1" != "-h" ]; then
+#     echo -e '\nSomething is missing... Type "./setup -h" without the quotes to find out more...\n'
+#     exit 0
+# fi
 
 while [[ $# -gt 0 ]]
 do
