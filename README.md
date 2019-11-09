@@ -1,6 +1,12 @@
 # VBoxMacSetup v1.2
 **maintained by:** hkdb \<hkdb@3df.io\><br />
 
+## Usage
+
+``` bash
+./setup.sh -v "osx_default_1573291088795_18370" -r 1920x1080
+```
+
 ### Bash script to quickly prepare your MacOS High Sierra Virtual HD with full screen resolution.
 
 ## WHAT DOES IT DO?
